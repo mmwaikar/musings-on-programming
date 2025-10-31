@@ -1,0 +1,5 @@
+[book]
+authors = ["Manoj Waikar"]
+language = "en"
+src = "src"
+title = "Musings on Programming"

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <url value="https://www.cancercoreeurope.eu/fhir/CodeSystem/UICCStage" />
+    <version value="0.0.1" />
+    <name value="UICCStage" />
+    <status value="draft" />
+    <contact>
+        <telecom>
+            <system value="url" />
+            <value value="https://www.cancercoreeurope.eu" />
+        </telecom>
+    </contact>
+    <description value="UICC Stage" />
+    <compose>
+        <include>
+            <system value="https://www.cancercoreeurope.eu/fhir/CodeSystem/UICCStage" />
+            <concept>
+                <code value="CR" />
+                <display value="Complete remission" />
+            </concept>
+            <concept>
+                <code value="PR" />
+                <display value="Partial remission" />
+            </concept>
+            <concept>
+                <code value="NC" />
+                <display value="No change" />
+            </concept>
+            <concept>
+                <code value="P" />
+                <display value="Progression" />
+            </concept>
+            <concept>
+                <code value="D" />
+                <display value="Divergent" />
+            </concept>
+            <concept>
+                <code value="MR" />
+                <display value="Minimal response" />
+            </concept>
+            <concept>
+                <code value="CRr" />
+                <display value="Complete remission with residual abnormalities" />
+            </concept>
+            <concept>
+                <code value="U" />
+                <display value="Unknown" />
+            </concept>
+            <concept>
+                <code value="X" />
+                <display value="Not specified" />
+            </concept>
+        </include>
+    </compose>
+</ValueSet>
