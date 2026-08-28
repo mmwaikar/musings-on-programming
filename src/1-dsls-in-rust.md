@@ -47,7 +47,7 @@ So every Rust programmer has used some or the other built-in macros:
 
 Rust supports two broad types of macros:
 
-- **Declarative macros** also sometimes referred to as *macros by example*, created using (`macro_rules!`) - they let you define patterns and expand them into Rust code
+- **Declarative macros** also sometimes referred to as *macros by example (MBE)*, created using (`macro_rules!`) - they let you define patterns and expand them into Rust code
 - **Procedural macros** allow you to write custom code transformations at compile time, and are of three kinds:
  
     - *Custom #[derive]* macros that specify code added with the derive attribute used on structs and enums
@@ -85,7 +85,7 @@ let contact = contact! { url base_url };
 
 #### Comparison
 
-If we just compare, the no. of lines required to use a macro, vs. the no. of lines of code generated, you'll see a substantial difference -
+If you just compare the no. of lines required to use a macro vs. the no. of lines of code generated, you'll see a substantial difference -
 
 | Macro | Line count (macro) | Line count (generated XML) |
 |-------|--------------------|----------------------------|
