@@ -84,4 +84,4 @@ So let's see what all recipes have I used to create my portfolio:
 
 ## To conclude
 
-How can we not talk about the **big elephant** in the room called **AI**? I have vibe-coded this portfolio, entirely using GitHub Copilot 😇 - I wanted to do this for a long time, but to use a new technology (like Blazor was for me - I mean, I knew the basics, but not all the intricacies, and certainly not these component libraries) takes time, and to build something working, takes even more time. But thanks to AI, I was able to build this pretty quickly. Enjoy more and more of your fav-lang and less and less of JS 😉
+How can we not talk about the **big elephant** in the room called **AI**? I have vibe-coded this portfolio, entirely using GitHub Copilot 😇 - I wanted to do this for a long time, but to use a new technology (like Blazor was for me - I mean, I knew the basics, but not all the intricacies, and certainly not these component libraries) takes time, and to build something working, takes even more time. But thanks to AI, I was able to build this pretty quickly. **So, enjoy more and more of your fav-lang and less and less of JS** 😉
